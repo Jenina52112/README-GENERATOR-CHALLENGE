@@ -1,6 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const markdown = require('../Develop/utils/generateMarkdown')
+
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -36,7 +38,7 @@ const questions = [
     },
     {
       type: 'list',
-      choices: ['MIT License', 'GNU General Public License (GPL)', 'Apache License', 'BSD License', 'Creative Commons Licenses'],
+      choices: ['MIT', 'GPL 3.0', 'Apache 2.0'],
       name: 'licenses',
       message: 'What is the license used if any?',
     },
@@ -54,9 +56,21 @@ const questions = [
 
   function generateREADME(answers) {
     return `
-# ${answers.title}
+# ${answers.title} 
 
 ## Table of Contents
+- [Introduction](#introduction)
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributors](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
+
+## Introduction
+This is the introduction section.
+
 
 ## Description
 ${answers.description}
@@ -73,15 +87,23 @@ ${answers.contributing}
 ## Tests
 ${answers.tests}
 
-## Questions?
+## License 
+    This application is covered under license ${answers.licenses}
+
+## Questions
   My GitHub profile is: ${answers.username}
   My email address is: ${answers.email}
 
 
 `;
+
+
 //README entitled Description, Installation, Usage, Contributing, and Tests
     // Add more sections as needed
 }
+
+
+
 // TODO: Create a function to write README file
 
 function writeREADME(content) {
@@ -104,6 +126,11 @@ function init() {
       .catch(err => console.error(err));
 }
 // Function call to initialize app
+
+
+
+
+
 init();
 
 
