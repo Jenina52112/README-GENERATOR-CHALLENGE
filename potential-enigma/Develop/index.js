@@ -94,7 +94,7 @@ ${answers.tests}
 
 ## License 
   This application is covered under license ${answers.licenses}.
-  For more information about the license, visit: ${licenseLink} or click the badge on top.
+  For more information about the license, visit: [${answers.licenses}](${licenseLink}) or click the badge on top.
 
 ## Questions
   My GitHub profile is: ${answers.username} [View on GitHub](https://github.com/${answers.username})
