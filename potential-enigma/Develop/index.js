@@ -55,8 +55,14 @@ const questions = [
   ]
 
   function generateREADME(answers) {
+    const license = `${answers.licenses}`;
+    const badge = markdown.renderLicenseBadge(license);
+    const licenseLink = markdown.renderLicenseLink(license);
+
+
     return `
-# ${answers.title} 
+# ${answers.title}    ${badge}
+
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -88,11 +94,13 @@ ${answers.contributing}
 ${answers.tests}
 
 ## License 
-    This application is covered under license ${answers.licenses}
+    This application is covered under license ${answers.licenses}.
+    For more information about the license, visit: ${licenseLink} or click the badge on top.
 
 ## Questions
-  My GitHub profile is: ${answers.username}
-  My email address is: ${answers.email}
+  My GitHub profile is: ${answers.username} [View on GitHub](https://github.com/${answers.username})
+
+  For additional questions, contact me at email address: ${answers.email}
 
 
 `;
@@ -134,7 +142,7 @@ function init() {
 init();
 
 
-
+module.exports = {generateREADME}
 
 
 
