@@ -124,7 +124,6 @@ function init() {
 init();
 
 
-module.exports = {generateREADME}
 
 
 
