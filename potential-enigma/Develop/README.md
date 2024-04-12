@@ -1,5 +1,5 @@
 
-# README GENERATOR       [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# README GENERATOR      [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
 ## Table of Contents
@@ -22,7 +22,7 @@ To install this application, clone this repository to your local machine, naviga
 Once installed, you can run the generator by command node index.js to terminal. Follow the prompts and provide necessary details. 
 
 ## Contributing
-Contributions are welcome. If you encounter issues or have any suggestions, open an issue to GitHub.
+Contributors are welcome! If you encounter issues or have any suggestions, open an issue to GitHub.
 
 ## Tests
 None

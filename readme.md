@@ -23,7 +23,7 @@ Once installed, you can run the generator by command node index.js to terminal. 
 ![alt text](image-1.png)
 
 ## Contributing
-Contributions are welcome. If you encounter issues or have any suggestions, open an issue to GitHub.
+Contributors are welcome! If you encounter issues or have any suggestions, open an issue to GitHub.
 
 ## Questions
   My GitHub profile is: Jenina52112 [View on GitHub](https://github.com/Jenina52112)

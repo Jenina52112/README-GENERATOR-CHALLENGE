@@ -37,7 +37,7 @@ const questions = [
     },
     {
       type: 'list',
-      choices: ['MIT', 'GPL 3.0', 'Apache 2.0'],
+      choices: ['MIT', 'GPL 3.0', 'Apache 2.0', 'none'],
       name: 'licenses',
       message: 'What is the license used if any?',
     },
@@ -57,6 +57,10 @@ const questions = [
     const license = `${answers.licenses}`;
     const badge = markdown.renderLicenseBadge(license);
     const licenseLink = markdown.renderLicenseLink(license);
+
+    
+
+
     return `
 # ${answers.title}    ${badge}
 
