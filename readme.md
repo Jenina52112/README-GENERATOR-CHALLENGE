@@ -21,6 +21,7 @@ To install this application, clone this repository to your local machine, naviga
 
 ## Usage
 Once installed, you can run the generator by command node index.js to terminal. Follow the prompts and provide necessary details. 
+![alt text](image-1.png)
 
 ## Contributing
 Contributions are welcome. If you encounter issues or have any suggestions, open an issue to GitHub.
