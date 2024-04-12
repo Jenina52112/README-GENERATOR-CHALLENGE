@@ -25,9 +25,6 @@ Once installed, you can run the generator by command node index.js to terminal. 
 ## Contributing
 Contributions are welcome. If you encounter issues or have any suggestions, open an issue to GitHub.
 
-## Tests
-None
-
 ## Questions
   My GitHub profile is: Jenina52112 [View on GitHub](https://github.com/Jenina52112)
 
