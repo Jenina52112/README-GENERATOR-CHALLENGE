@@ -2,8 +2,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const markdown = require('../Develop/utils/generateMarkdown');
-const { type } = require('os');
-
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -59,10 +57,6 @@ const questions = [
     const license = `${answers.licenses}`;
     const badge = markdown.renderLicenseBadge(license);
     const licenseLink = markdown.renderLicenseLink(license);
-    
-    
-
-
     return `
 # ${answers.title}    ${badge}
 
@@ -100,13 +94,7 @@ ${answers.tests}
   My GitHub profile is: ${answers.username} [View on GitHub](https://github.com/${answers.username})
 
   For additional questions, contact me at email address: ${answers.email}
-
-
 `;
-
-
-//README entitled Description, Installation, Usage, Contributing, and Tests
-    // Add more sections as needed
 }
 
 
@@ -133,11 +121,6 @@ function init() {
       .catch(err => console.error(err));
 }
 // Function call to initialize app
-
-
-
-
-
 init();
 
 
