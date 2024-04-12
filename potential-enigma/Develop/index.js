@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const markdown = require('../Develop/utils/generateMarkdown')
+const markdown = require('../Develop/utils/generateMarkdown');
+const { type } = require('os');
 
 
 // TODO: Create an array of questions for user input
@@ -18,23 +19,23 @@ const questions = [
     },
     {
       type: 'input',
-      name: 'Installation',
-      message: 'What are the languages or apps used for this project?',
+      name: 'installation',
+      message: 'How to install this application?',
     },
     {
       type: 'input',
       name: 'usage',
-      message: 'What is this project for?',
+      message: 'How to use this application?',
     },
     {
       type: 'input',
       name: 'contributing',
-      message: 'Who are the contributors on this project?',
+      message: 'Provide contribution guidelines.',
     },
     {
       type: 'input',
       name: 'tests',
-      message: 'Provide test documentations.',
+      message: 'Provide test documentations if any.',
     },
     {
       type: 'list',
@@ -58,6 +59,8 @@ const questions = [
     const license = `${answers.licenses}`;
     const badge = markdown.renderLicenseBadge(license);
     const licenseLink = markdown.renderLicenseLink(license);
+    
+    
 
 
     return `
@@ -65,7 +68,6 @@ const questions = [
 
 
 ## Table of Contents
-- [Introduction](#introduction)
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -74,15 +76,12 @@ const questions = [
 - [License](#license)
 - [Questions](#questions)
 
-## Introduction
-This is the introduction section.
-
 
 ## Description
 ${answers.description}
 
 ## Installation
-${answers.Installation}
+${answers.installation}
 
 ## Usage
 ${answers.usage}

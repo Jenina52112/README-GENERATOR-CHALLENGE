@@ -1,9 +1,8 @@
 
-# README GENERATOR    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+# README GENERATOR    [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![alt text](image.png)
 
 ## Table of Contents
-- [Introduction](#introduction)
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -12,8 +11,6 @@
 - [License](#license)
 - [Questions](#questions)
 
-## Introduction
-This is the introduction section.
 
 
 ## Description
@@ -32,8 +29,8 @@ Contributions are welcome. If you encounter issues or have any suggestions, open
 None
 
 ## License 
-    This application is covered under license MIT.
-    For more information about the license, visit: https://opensource.org/licenses/MIT or click the badge on top.
+    This application is covered under license GPL 3.0.
+    For more information about the license, visit: https://www.gnu.org/licenses/gpl-3.0 or click the badge on top.
 
 ## Questions
   My GitHub profile is: Jenina52112 [View on GitHub](https://github.com/Jenina52112)
