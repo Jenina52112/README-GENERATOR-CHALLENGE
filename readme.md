@@ -1,5 +1,8 @@
 
 # README GENERATOR    
+
+# [CLICK THIS FOR WALKTROUGH VIDEO OF THE APPLICATION](https://drive.google.com/file/d/11hq3N_umXdOu2e6tdTTGX73xQQmfEG3U/view)
+
 ![alt text](image.png)
 
 ## Table of Contents

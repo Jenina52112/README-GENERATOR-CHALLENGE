@@ -1,5 +1,5 @@
 
-# README GENERATOR      [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# SVG LOGO GENERATOR CHALLENGE    
 
 
 ## Table of Contents
@@ -13,23 +13,23 @@
 
 
 ## Description
-The README generator is an application that automates building a readme file for your project. With this tool, you can easily create a readme file by providing details through a series of prompts.
+This project is a command-line application that takes in user input to generate a logo and save it as an SVG file.
 
 ## Installation
-To install this application, clone this repository to your local machine, navigate to the project directory: readme generator challenge and install the dependencies.
+To install this application, clone this repository to your local machine, navigate to the project directory: SVG LOGO MAKER CHALLENGE and install the dependencies.
 
 ## Usage
-Once installed, you can run the generator by command node index.js to terminal. Follow the prompts and provide necessary details. 
+Once installed, you can run the generator by command node index.js to terminal. Follow the prompts and provide necessary details. After successfully answering the questions, a svg file will be generated and can be viewed in a live server.
 
 ## Contributing
 Contributors are welcome! If you encounter issues or have any suggestions, open an issue to GitHub.
 
 ## Tests
-None
+A test file is attached inside the code.
 
 ## License 
-  This application is covered under license GPL 3.0.
-  For more information about the license, visit: [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0) or click the badge on top.
+  This application is covered under license none.
+  For more information about the license, visit: [none]() or click the badge on top.
 
 ## Questions
   My GitHub profile is: Jenina52112 [View on GitHub](https://github.com/Jenina52112)
